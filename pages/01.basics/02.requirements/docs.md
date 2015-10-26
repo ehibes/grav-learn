@@ -46,7 +46,7 @@ Even though most distributions of Apache come with everything needed, for the sa
 * `mod_rewrite`
 * `mod_ssl`
 
-You should also ensure you have `AllowOveride All` set in the `<Directory>` and/or `<VirtualHost>` blocks so that the `.htaccess` file processes correctly and rewrite rules take effect.
+You should also ensure you have `AllowOverride All` set in the `<Directory>` and/or `<VirtualHost>` blocks so that the `.htaccess` file processes correctly and rewrite rules take effect.
 
 ### IIS Requirements
 
